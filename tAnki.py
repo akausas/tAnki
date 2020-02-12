@@ -12,12 +12,8 @@ import os
 
 while True:
     
-    arg = sys.argv[1]
-
-    
-
-    #print("Print full path or file name")
-    #my_path = input()
+    # add the path location argument
+    arg = sys.argv[1] 
 
     try:
         # Read the file located in same directory as the code
@@ -31,7 +27,7 @@ while True:
         test_tangorin.close()
 
         # Creates new txt file where modified data will be written
-        # File location is in the same folder as pre-modified file
+        # File location should be changed by user preference is used without the tAnki.command script
         new_tangorin = open('Desktop/to_anki.txt', 'w',encoding='utf-8')
 
         # Scan for every instance in the file and modify it.
