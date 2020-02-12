@@ -6,6 +6,8 @@ Problem: ANKI flash cards use different file format for data import. Previously,
 
 Solution: This repository has a .py file with the code to modify the .txt file from tangorin.com and prepare file for import into the ANKI flash cards by adding missing "tab".
 
-Option 1: Directly download the .py file and launch it with the terminal by adding additional path for the .txt file location
+Option 1: Directly download the tAnki.py file and launch it with the terminal by adding additional path for the .txt file location
 
-Option 2: Download both the .py file and tAnki.command file. Put the script file into the /usr/local/bin location as it has automatic PATH location and use chmod u+t tAnki.command to give it excecute option. Inside the tAnki.command file change the exact directory location of the python file.
+Option 2: Download both the tAnki.py file and tAnki.command file. Put the script file into the /usr/local/bin location as it has automatic PATH location and use chmod u+t tAnki.command to give it excecute option. Inside the tAnki.command file change the exact directory location of the python file. For Win and Linux respectively the tAnki.command extention should be changed accordingly.
+
+Two .txt files are added for a test. Use test_anki.txt for testing the script
